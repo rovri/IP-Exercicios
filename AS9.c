@@ -43,6 +43,8 @@ int main(){
 
     //printf("%f\n", *(pontQP+1));
 
+    printf("\n");
+
     return 0;
 }
 

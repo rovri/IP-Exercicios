@@ -30,7 +30,7 @@ int main(){
 
     int contX = contagem1(arranjo, 5, 2);
 
-    printf("%i", contX);
+    printf("%i\n", contX);
 
     return 0;
 }

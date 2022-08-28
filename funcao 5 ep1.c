@@ -3,9 +3,13 @@
 int main() {
 
   long fibonacci(int n);
-  long f = fibonacci(72);
 
-  printf("%li", f);
+  int n;
+  printf("Escreva a posição de Fibonacci: ");
+  scanf("%i", &n);
+  long f = fibonacci(n);
+
+  printf("O número de Fibonacci na posição %i é igual a: %li\n", n, f);
 
   return 0;
 }
